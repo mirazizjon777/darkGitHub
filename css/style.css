@@ -170,4 +170,7 @@ input {
   .small {
     font-size: 1.1rem;
   }
+  .search-input {
+    margin-left: 2px;
+  }
 }
