@@ -1,0 +1,104 @@
+/* FONTS STYLE */
+/* space-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/space-mono-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/space-mono-v12-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* space-mono-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/space-mono-v12-latin-700.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/space-mono-v12-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* end */
+
+/* ROOT */
+
+:root {
+  --blue: #0079ff;
+  --grey: #697c9a;
+  --blue-dark: #4b6a9b;
+  --dark: #2b3442;
+  --qaymoq-rang: #f6f8ff;
+  --white: #fefefe;
+  --text-fonts: "Space Mono", "Arial", sans-serif;
+}
+.dark-not {
+  --blue: #0079ff;
+  --grey: #697c9a;
+  --blue-dark: #ffffff;
+  --dark: #fefefe;
+  --qaymoq-rang: #1e2a47;
+  --white: #2b3442;
+}
+/*  */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* TEXT STYLE */
+
+p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1.4;
+  color: var(--dark);
+}
+.blue {
+  color: var(--blue);
+  margin-bottom: 2rem;
+}
+.h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  color: var(--dark);
+}
+.dark-text {
+  color: var(--grey);
+}
