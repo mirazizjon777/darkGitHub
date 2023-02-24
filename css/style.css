@@ -9,7 +9,6 @@
   font-family: var(--text-fonts);
 }
 
-
 .container {
   width: 100%;
   max-width: 730px;
@@ -50,6 +49,9 @@ input {
   background-color: var(--blue);
   color: var(--white);
 }
+.search-btn:hover {
+  background-color: #60abff;
+}
 .search-input {
   margin-left: 2.5rem;
 }
@@ -81,16 +83,16 @@ input {
   margin-bottom: 3.7rem;
 }
 .box__3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 1.5rem;
-    column-gap: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1.5rem;
+  column-gap: 5rem;
 }
 .box__3--item {
-    display: flex;
-    gap: 1.6rem;
+  display: flex;
+  gap: 1.6rem;
 }
-input  {
-    background-color: var(--white);
-    color: var(--dark);
+input {
+  background-color: var(--white);
+  color: var(--dark);
 }
