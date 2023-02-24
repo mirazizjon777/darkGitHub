@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark Mode GitHub</title>
     <!-- LINK CSS -->
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -16,7 +17,8 @@
           <h2 class="subtitle h2">devfinder</h2>
           <div class="header__box">
             <h3 class="dark-text">DARK</h3>
-            <img id="darkNot"
+            <img
+              id="darkNot"
               src="./images/svg/oy.svg"
               alt="oy-icon"
               width="20"
@@ -40,16 +42,35 @@
         </form>
 
         <div class="box">
-          <img class="cat-img" src="./images/svg/cat.svg" alt="cat" />
+          <img
+            class="cat-img catOff"
+            src="./images/svg/cat.svg"
+            alt="cat"
+            width="117"
+            height="117"
+          />
           <div class="box-in">
             <div class="box__1">
+              <img
+                class="cat-img catOn"
+                src="./images/svg/cat.svg"
+                alt="cat"
+                width="117"
+                height="117"
+              />
               <div class="box__one">
-                <h2 class="box__title h2">The Octocat</h2>
-                <p class="blue p">@octocat</p>
-                <p class="p">This profile has no bio</p>
+                <div class="box__1--item">
+                  <h2 class="box__title h2">The Octocat</h2>
+                  <p class="blue p">@octocat</p>
+                  <p class="p textOff">This profile has no bio</p>
+                </div>
+                <p class="date p">Joined 25 Jan 2011</p>
               </div>
-              <p class="date p">Joined 25 Jan 2011</p>
             </div>
+            <p class="textOn">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+              odio. Quisque volutpat mattis eros.
+            </p>
             <div class="box__2">
               <div class="box__2--item">
                 <p class="small">Repos</p>
@@ -66,21 +87,43 @@
             </div>
             <div class="box__3">
               <div class="box__3--item">
-                <img src="./images/svg/map.svg" alt="" />
-                <p class="p">San Francisco</p>
+                <img
+                  src="./images/svg/map.svg"
+                  alt=""
+                  width="13.75"
+                  height="20"
+                />
+                <a href="#" class="p">San Francisco</a>
               </div>
               <div class="box__3--item">
-                <img src="./images/svg/tvitter.svg" alt="" />
-                <p class="p">Not Available</p>
+                <img
+                  src="./images/svg/tvitter.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                <a href="#" class="p">Not Available</a>
               </div>
               <div class="box__3--item">
-                <img src="./images/svg/gitHub.svg" alt="" />
-                <p class="p">https://github.blog</p>
+                <img
+                  src="./images/svg/gitHub.svg"
+                  alt=""
+                  width="20"
+                  height="16.25"
+                />
+                <a href="https://github.com/mirazizjon777" class="p"
+                  >https://github.blog</a
+                >
               </div>
 
               <div class="box__3--item">
-                <img src="./images/svg/building.svg" alt="" />
-                <p class="p">@github</p>
+                <img
+                  src="./images/svg/building.svg"
+                  alt=""
+                  width="20"
+                  height="20"
+                />
+                <a href="#" class="p">@github</a>
               </div>
             </div>
           </div>
