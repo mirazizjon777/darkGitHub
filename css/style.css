@@ -39,9 +39,7 @@
   margin-bottom: 2.4rem;
   box-shadow: 0 16px 30px -10px rgba(70, 96, 187, 0.1986);
 }
-input {
-  border: 0;
-}
+
 .search-btn {
   padding: 1.3rem 2.4rem;
   border: 0;
@@ -54,6 +52,7 @@ input {
 }
 .search-input {
   margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 /* BOX */
@@ -104,6 +103,8 @@ input {
   gap: 1.6rem;
 }
 input {
+  border: 0;
+  padding: 0.5rem;
   background-color: var(--white);
   color: var(--dark);
 }
